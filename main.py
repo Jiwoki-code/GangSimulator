@@ -1,18 +1,15 @@
-import json
 import os
-
-# Load raw data from JSONS
-names_data = []
-with open("data/names.JSON") as json_file:
-    names_data = json.load(json_file)
+from game.game import Game
+from game.places import Place
+from game.items import Item
 
 # Main
 
 def main():
     os.system("clear")
-    print("Main section started")
-    print("Loaded names : ")
-    print(names_data)
+    game = Game() # Init nouvelle instance de Game
+    game.seed() # Crée les instances et trucs randoms nécessaires pour faire jouer ou débug
+    game.game_loop() # Lance la loop dans l'instance
 
 if __name__ == "__main__":
     main()
