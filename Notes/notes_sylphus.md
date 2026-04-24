@@ -102,3 +102,4 @@ Dans une journée on peut faire 3 activités (on passe 3 fois par la phase de ch
 - Système de sauvegarde (pour l'instant on sauvegarde pas)
 - Nombre de jours limités par partie ? (On peut dire 15-20 jours pour une partie). Le but étant de faire le plus gros score ?
 - Les établissements peuvent se faire fermer par la police si la reputation est trop basse
+- Lieux pour vendre et acheter des items
