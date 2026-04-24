@@ -36,7 +36,9 @@ def inputmanager():
     for i in gameinstance.posible_actions:
         loop += 1
         print(str(loop)+ ' - ' + str(i))
+    
     commande = input()
+
     match commande:
         case '1':
             print('Vous sortez dehors')
